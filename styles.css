@@ -257,6 +257,7 @@ color: white;
     display: grid;
     grid-template-columns: repeat(1, minmax(900px, 1.5fr)) repeat(1, minmax(200px, 0.5fr));
     /* height: 100%; */
+    /* grid-template-rows: 50px auto; */
     background-color: #E3E0E7;
 }
 .card-container h3{
@@ -293,7 +294,7 @@ color: white;
 }
 .card {
     width: clamp(200px, 100%, 500px);
-    height: 190px;
+    height: 210px;
     background-color: #FFFFFF;
     justify-self: center;
     align-self: center;
